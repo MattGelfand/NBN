@@ -128,19 +128,13 @@ background: #520063;
 
 #sidebar li {
   border-bottom: 1px solid #4d4d4d;
-  
 }
 
 #sidebar li:hover {
-  background:#2a2a2a;
+  background:#e8d5e3;
   -webkit-transition: .5s;
   transition: .5s;
 }
-
-#sidebar li p:hover {
-  color: white;
-}
-
 
 #sidebar li p {
   word-wrap: break-word;
@@ -157,7 +151,7 @@ background: #520063;
   font-size: 1.2em;
   margin:0;
   padding-top:.6em;
-  color: #EC380E;
+  color: #2a2a2a;
   font-family: "museo-sans-condensed";
   font-weight: 900;
   text-align: center;
@@ -182,10 +176,6 @@ background: #520063;
   padding: 0 .6em;
   margin-top:.3em;
   margin-bottom: .3em;  
-}
-
-#sidebar li.current p:hover {
-color: #484848;  
 }
 
 #sidebar li.current h4 {
