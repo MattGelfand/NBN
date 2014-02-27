@@ -74,7 +74,7 @@ img.tiny-icons {
   position: fixed;
   left:1;
   bottom: 0;
-  top: 1;
+  top: 0;
   right: 0;
   
 }
@@ -131,7 +131,7 @@ background: #520063;
 }
 
 #sidebar li:hover {
-  background:#e8d5e3;
+  background:#f3f2db;
   -webkit-transition: .5s;
   transition: .5s;
 }
