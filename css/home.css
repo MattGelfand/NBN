@@ -1,0 +1,256 @@
+/* global styles */
+body {
+
+line-height: 1.5em;
+font-family: "calluna", Helvetica Neue, serif;
+-webkit-text-size-adjust:100%;
+font-size: 150%;
+}
+
+p {
+margin: 1.6em 0 .8em 0;
+-webkit-hypens: auto;
+font-size: .8em;
+color:#484848;
+}
+
+
+/* navigation bar styles */
+
+nav {
+background: #2a2a2a;
+height:60px;
+position: static;
+width:100%;
+margin-top:35px;
+}
+
+nav img.search, nav img.logo, #main-cats {
+position: absolute;	
+}
+
+nav img.search {
+right:15px;
+width: 4%;
+top: 45px;
+}
+
+nav img.logo {
+width: 130px; 
+left:15px;
+top:0; 
+}
+
+#main-cats {
+color: #efefef; 
+font-size: .6em;
+letter-spacing: 4px;
+font-family: "museo-sans-condensed"; 
+font-weight: 500;
+text-transform: uppercase;
+text-align: center;
+left: 130px;
+}
+
+#main-cats li {
+list-style-type: none;
+display: inline;
+padding: 22.5px 10px 19px 10px;
+border-left:1px dotted grey; 
+margin-left: -5.5px;
+}
+
+#main-cats li:last-child {
+border-right:1px dotted grey;  
+}
+
+#main-cats li:hover {
+background: #520063;  
+}
+
+
+
+
+
+/*hero area*/
+
+
+.hero-container {
+position: relative;
+width:1050px;
+margin:auto;
+}
+
+.hero-center {
+width: 300px;
+height: 105px;
+z-index: 1;
+position: relative;
+top: 260px;
+left: 390px;
+background: black;
+
+}
+
+.hero-center p {
+font-family: 'calluna-sans';
+font-size: 45px;
+text-align: center;
+font-weight: bold;
+color: #fafafa;
+padding-top: 30px;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+
+
+/*hero images*/
+
+.hero-images {
+position: relative;
+margin-top: 200px;
+max-width: 100%;
+
+}
+
+.hero-hed-top-left {
+color:#fafafa;
+font-family: 'calluna-sans';
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 36px;
+width: 460px;
+text-transform: uppercase;
+position: absolute;
+text-align: center;
+line-height: 1;
+bottom: 100px;
+left: 17px;
+z-index: 1;
+padding: .4em;
+outline-style: dotted;
+text-shadow: 0px 4px 6px #000; 
+}
+
+.hero-hed-top-right {
+color:#fafafa;
+font-family: 'calluna-sans';
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 36px;
+width: 460px;
+text-transform: uppercase;
+position: absolute;
+text-align: center;
+line-height: 1;
+bottom: 100px;
+left: 546.5px;
+z-index: 1;
+padding: .4em;
+outline-style: dotted;
+text-shadow: 0px 4px 6px #000; 
+}
+
+.hero-hed-bottom-left {
+color:#2a2a2a;
+font-family: 'calluna-sans';
+font-weight: 600;
+letter-spacing: 2px;
+font-size: 36px;
+width: 460px;
+text-transform: uppercase;
+position: absolute;
+text-align: center;
+line-height: 1;
+top: 50px;
+left: 0;
+z-index: 1;
+padding: .4em;
+outline-style: dotted;
+
+}
+
+img.hero-top-left {
+position: absolute;
+top:0;
+left:0;	
+opacity: .8;
+}
+
+img.hero-top-right {
+position: absolute;
+top:0;
+right:0;	
+opacity: .8;
+}
+
+img.hero-bottom-right {
+position: absolute;
+bottom:0;
+right:0;	
+opacity: .8;
+}
+
+img.hero-bottom-left {
+position: absolute;
+bottom:0;
+left:0;	
+opacity: .8;
+}
+
+img.hero-top-right, img.hero-top-left, img.hero-bottom-left, img.hero-bottom-right {
+
+}
+
+img.hero-top-right:hover, img.hero-top-left:hover, img.hero-bottom-left:hover, img.hero-bottom-right:hover{	
+opacity: 1;
+}
+
+
+/*hero heds*/
+
+
+
+
+
+/* carosel */
+
+.carosel-container {
+background: green; 
+margin-top: 30em;
+}
+
+.boxes {
+margin-left: auto;
+margin-right: auto;
+width: 95%;	
+}
+
+.box, .box2, .box3, .box4 {
+float:left;
+width: 190px;
+height: 150px;
+margin: 0 1em;
+background: black;	
+}
+
+#twitter {
+width: 17%;
+background:blue;
+float: left;
+margin: 0 1em;
+height: 400px;
+}
+
+footer {
+background: black;
+clear: both;
+width: 100%;
+padding:1.6em 0;	
+}
+
+
+
+
+
