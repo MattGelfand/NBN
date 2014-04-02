@@ -10,16 +10,21 @@ $(document).ready(function() {
     $('body > div').css('height', window.innerHeight);
   }
 
-  $(".aside a").on('click', function(e) {
+  $("footer a").on('click', function(e) {
     e.preventDefault();
 
     var target = $(this).attr("href");
 
     $("html, body").stop().animate({
-      scrollLeft: $(target).offset().left - 200,
+      scrollLeft: $(target).offset().left,
       scrollTop: $(target).offset().top
     }, 500);
 
   });
+
+
+
+
+
 
 });

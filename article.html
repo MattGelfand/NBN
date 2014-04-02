@@ -25,9 +25,8 @@
 				<li>blogs</li>
 				<li>multimedia</li>
 			</ul>-->
-			<div class="accordian">
-				<img src="img/chevron-down.png" />
-				<h5 class="accordian-link">up next in</h5>
+			<div class="accordian" id="top">
+				<h5 class="accordian-link">latest in</h5>
 				<ul class="section-list">
 					<li>life & style</li>
 					<li>entertainment</li>
@@ -38,11 +37,17 @@
 					<li>multimedia</li>
 				</ul>
 			</div>
-
-			<a><img class="search" src="img/search-icon.png" /></a>
+			
+			<figure>
+				<a><img class="search" src="img/search-icon.png" /></a>
+			</figure>
 		</nav>
 
-		<div class="next">
+		<figure>
+			<img class="chevron-down" src="img/chevron-down.png" />
+		</figure>
+		
+		<div class="next-nav">
 			<ul>
 				<li>Dorm Room DIY: Home Sweet Dorm</li>
 				<li>Guide to undoing your winter beard</li>
@@ -67,8 +72,8 @@
 
 			<section>
 
-				<aside>
-					<h3>Most Commented</h3>
+				<!--<aside>
+					<h3></h3>
 					<ol>
 						<a href="#"><li>Dormroom DIY: Dorm Sweet Dorm</li></a>
 						<a href="#"><li>A roommate's guide to Big/Little week</li></a>
@@ -76,7 +81,7 @@
 						<a href="#"><li>A comprehensive guide to Evanston eateries</li></a>
 						<a href="#"><li>The Weekender</li></a>
 					</ol>
-				</aside>
+				</aside>-->
 
 				<div class='content'>
 					<p><span class="dropcap">W</span>illiam Shakespeare gave the world the language of love with Romeo & Juliet, a tragedy with Hamlet and, at Northwestern, he was the inspiration for a beautiful and memorable garden. The Shakespeare Garden is particularly special for Harold and Carol Crapp, as it is part of their fondest memory: the exchange of their wedding vows.</p>
@@ -104,13 +109,13 @@
 
 					<p>As the Shakespeare Garden stays timeless, Harold and Carol's relationship continues to flourish. Its presence hopefully reminds students and visitors that hope can come from a single vow among flowers whose names were just a series of words in an old English play.</p>
 
-					<div class="next-story">
-						<p>next story</p>
+					<div class="next-bottom">
+						<a href="#"><img src="img/chevron-right.png"/ ></a>
+						<h4>Next in Lifestyle:</h4>
+						<a href="#"><p>Dorm Room DIY: Dorm Sweet Dorm</p></a>
 					</div>
 
 				</div><!--end content-->
-
-				
 
 				<hr class="hr">
 
@@ -124,7 +129,7 @@
 					<div class="social-icons">
 						<h3>Share this story</h3>
 							<ul class="fa-ul">
-							<li><i class="fa-li fa fa-facebook-square"></i>Facebook</li>
+							<li><i class="fa-li fa fa-facebook-square"></i> Facebook</li>
 							<li><i class="fa-li fa fa-twitter-square"></i> Twitter</li>
 							<li><i class="fa-li fa fa-envelope-o"></i> Email</li>
 						</ul>
@@ -134,37 +139,44 @@
 		</section><!--end section-->
 	</div><!--end container-->
 
-		<div id="disqus_thread"></div>
+		<div id="disqus_thread">
+			<p>ADD DISQUS</p>
+		</div>
 
 		<footer>
-			<img class="footer-logo" src="img/nbn_logo.png" />
 			<div class="holder">
 				<div class="col">
-					<h5>About</h5>
+					<h5>Getting Personal</h5>
 					<ul>
-						<li>call</li>
-						<li>email</li>
-						<li>skype</li>
+						<li>About us</li>
+						<li>Staff</li>
+						<li>Contact</li>
 					</ul>
 				</div>
 
 				<div class="col">
-					<h5>About</h5>
+					<h5>Get Involved</h5>
 					<ul>
-						<li>call</li>
-						<li>email</li>
-						<li>skype</li>
+						<li>Subscribe</li>
+						<li>Advertise</li>
+						<li>Something</li>
 					</ul>
 				</div>
 
 				<div class="col">
-					<h5>About</h5>
-				<p>Use of this site constitutes acceptance of our User Agreement.
-North by Northwestern, NFP is an Illinois not-for-profit corporation.
-(c) 2013 North by Northwestern. All rights reserved.</p>
+					<h5>Legal Stuff</h5>
+					<p>Use of this site constitutes acceptance of our User Agreement.
+					North by Northwestern, NFP is an Illinois not-for-profit corporation.
+					(c) 2013 North by Northwestern. All rights reserved.</p>
 				</div>			
 			</div>
-			<p class="back-top">back to top</p>
+			
+			<figure class="back-top">
+				<a href="#top">
+					<p>back to top</p>
+				</a>
+			</figure>
+		
 		</footer>
 		
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
