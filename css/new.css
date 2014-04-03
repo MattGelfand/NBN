@@ -184,10 +184,8 @@ input {
   right: 0;
   top:40%; 
   z-index: 1;
-  color:black;
-  border-top:4px solid black;
-  border-bottom:4px solid black;
-  border-left:4px solid black;
+  color:white;
+  background: #2a2a2a;
 }
 
 #chev-left {
@@ -195,10 +193,8 @@ input {
   left: 0;
   top:40%;
   z-index: 1;
-  color:black;
-  border-top:4px solid black;
-  border-bottom:4px solid black;
-  border-right:4px solid black;
+  color:white;
+  background: #2a2a2a;
 }
 
 #chev-left:hover, #chev-right:hover {
