@@ -6,23 +6,190 @@
     <meta http-equiv='X-UA-Compatible', content='IE=edge, chrome=1' />
     <title>New NBN</title>
     <link rel='stylesheet' href='css/new.css' />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <script src="//use.typekit.net/vhl0htp.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
 
   <body>
-    <div id="viewport">
-      <div id='main'>
-        <div>subview 1</div>
-        <div>subview 2</div>
-        <div>subview 3</div>
+    <div id="container">
+      <div class="chevrons">
+      <i class="fa fa-chevron-right fa-2x" id="chev-right"></i>
+      <i class="fa fa-chevron-left fa-2x" id="chev-left"></i>
       </div>
-    </div>
+
+      <div class="drawer-left">
+        <h1>Politics</h1>
+        <p>politics story</p>
+      </div>
+
+      <div class="drawer-right">
+        <h1>Sports</h1>
+        <p>sports story</p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Latest</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#politics">Politics</a></li>
+          <li><a href="#entertain">Entertainment</a></li>
+          <li><a href="#life">Life & Style</a></li>
+          <li><a href="#opinion">Opinion</a></li>
+          <li><a href="#multimedia">Multimedia</a></li>
+          <li><a href="#spotlight">Writer's Spotlight</a></li>
+          <li><a href="#twitter">Twitter</a></li>
+        </ul>
+        
+        <form id="searchform" method="get" action="#">
+          <input type="search" name="search" placeholder="Search NBN..." />
+        </form>
+      </nav>
+
+
+      <section id="main">
+        <div class="top-story">
+          <figure>
+            <img src="img/jobfair.jpg" />
+            <h1>EPIC, UCS, Kellogg host first startup career fair<span>15 minutes ago</span></h1>
+              <figcaption>
+                <p>Courtesy: Creative Commons</p>
+              </figcaption>
+          </figure>
+        </div>  
+
+
+        <section class="sub-stories">
+          <h2>More Latest</h2>
+          <article class="column">
+            <figure>
+              <img src="img/demamp.jpg"/>     
+            </figure>
+            <div class="hed">
+              <h2>A&O announces spring speaker Adam DeVine</h2>
+              <br />
+              <span class="column-span">40 minutes ago</span>
+            </div>
+            <div class="teaser">
+              <p>Comedy Central star Adam Devine will perform stand-up comedy as the A&O Productions Spring Speaker on April 8, the student group announced Tuesday evening. DeVine is a star and creator of Workaholics and Adam DeVine’s House Party.</p>
+            </div>
+          </article>
+            
+          <article class="column">
+            <figure>
+              <img src="img/saferide.jpg"/>     
+            </figure>
+            <div class="hed">
+              <h2>SafeRide changes policy on rides to off-campus locations</h2>
+              <br />
+              <span class="column-span">45 minutes ago</span>
+            </div>
+            <div class="teaser">
+              <p>The SafeRide petition argues that the new policy goes against SafeRide’s purpose as “a service provided to members of the Northwestern community as a safe and free alternative to walking alone after dark.”</p>
+            </div>
+          </article> 
+
+          <article class="column">
+            <figure>
+              <img src="img/snow.jpg"/>     
+            </figure>
+            <div class="hed">
+              <h2>Record amounts of snow in 2014 winter racks up costs to the city</h2>
+              <br />
+              <span class="column-span">55 minutes ago</span>
+            </div>
+            <div class="teaser">
+              <p>As spring quarter begins and the memory of Evanston’s snowiest winter fades, the city continues to cope with its costly legacy.</p>
+            </div>
+          </article> 
+
+          <article class="column">
+            <figure>
+              <img src="img/chance.jpg"/>     
+            </figure>
+            <div class="hed">
+              <h2>Dillo Day website teases Chance The Rapper</h2>
+              <br />
+              <span class="column-span">2 hours ago</span>
+            </div>
+            <div class="teaser">
+              <p>Mayfest's Dillo Day website teased a clip of Chance The Rapper on their homepage tonight. While Mayfest hasn't officially confirmed Chance The Rapper and could not comment on the post, it suggests that he might perform at this year's Dillo Day, which is May 31. The rap acts for Dillo Day last year were Danny Brown and Wiz Khalifa.</p>
+            </div>
+          </article> 
+        </section><!--end substories-->
+
+         <section class="popular">
+            <h3>most popular</h3>      
+        </section>
+      
+      <div class="more">
+        <h2>Load More</h2>
+      </div>
+
+    </div><!--end main-->
+
+
+      <!--<div id="viewport">
+        <div id='main'>
+          <div>subview 1</div>
+          <div>subview 2</div>
+          <div>subview 3</div>
+        </div>
+      </div>-->
+
+      </div><!--end container-->
+
+    
+
+
+
+
+
+
+
+  <footer>
+      <div class="holder">
+        <div class="col">
+          <h5>Getting Personal</h5>
+          <ul>
+            <li>About us</li>
+            <li>Staff</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>Get Involved</h5>
+          <ul>
+            <li>Subscribe</li>
+            <li>Advertise</li>
+            <li>Something</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>Legal Stuff</h5>
+          <p>Use of this site constitutes acceptance of our User Agreement.
+          North by Northwestern, NFP is an Illinois not-for-profit corporation.
+          (c) 2013 North by Northwestern. All rights reserved.</p>
+        </div>      
+      </div>
+      
+      <figure class="back-top">
+        <a href="#top">
+          <p>back to top</p>
+        </a>
+      </figure>
+    
+  </footer>
+
+
+
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <script src="js/new.js"></script>
     <script src="js/smoothscroll.js"></script>
-    <script>
-      protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'; address = protocol + window.location.host + window.location.pathname + '/ws'; socket = new WebSocket(address); socket.onmessage = function(msg) { msg.data == 'reload' && window.location.reload() }
-    </script>
   </body>
 
 </html>

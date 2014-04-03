@@ -1,6 +1,6 @@
 $(function(){
 
-  var offset = 70;
+ /* var offset = 90;
   var first = $('#main > div').first();
 
   // any time you click a section, run this code
@@ -14,6 +14,19 @@ $(function(){
     $('#main > div').css({ opacity: .5 })
     // make the current one darker
     $(this).css({ opacity: 1 })
+  });*/
+
+  $('li a').on('click', function() {
+    $('li a').css('background-color', '#2a2a2a');
+    $(this).css('background-color', 'black');
+  });
+
+  $('#chev-left').on('hover', function(){
+    $('.drawer-left').toggleClass('active');
+  });
+
+   $('#chev-right').on('hover', function(){
+    $('.drawer-right').toggleClass('active');
   });
 
 });
