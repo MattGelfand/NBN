@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('body > div').css('height', window.innerHeight);
   }
 
-  $("footer a").on('click', function(e) {
+  $("nav li a").on('click', function(e) {
     e.preventDefault();
 
     var target = $(this).attr("href");

@@ -1,0 +1,14 @@
+* {
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  font-smoothing: antialiased;
+}
+
+body {
+	background:#fafafa;
+}
+
+#container {
+	margin:0 auto;
+	max-width: 1280px;
+}
