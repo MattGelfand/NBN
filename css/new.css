@@ -195,6 +195,10 @@ input {
   background: #2a2a2a;
 }
 
+.burger {
+  display: none;
+}
+
 #chev-left:hover, #chev-right:hover {
   color:#d3d3d3;
 }
@@ -543,5 +547,122 @@ footer ul {
  
 
 /*queries*/
+
+/*media queries*/
+
+@media only screen and (max-width: 1124px) {
+img { width: 100%; }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+#container {
+  margin: 0;
+  width: 100%;
+  padding:0;  
+}
+
+#searchform 
+{ display: none; }
+
+nav ul {
+  margin: 0 auto;
+  padding: 15px;
+}
+
+nav li 
+{ font-size: 12px; }
+
+figure h1 {
+  font-size: 30px;
+  left:150px;
+  width: 50%;
+}
+
+.top-story img {
+  margin:0;
+}
+
+.top-story span {
+  margin-left:20px;
+}
+
+figcaption p{
+  display: none;
+}
+
+#chev-right, #chev-left {
+top:59.2%;
+}
+
+.ad {
+  display: none;
+}
+
+.sidebar {
+  float: none;
+  margin:0 auto;
+  width: 100%;
+}
+
+.holder {
+  -webkit-column-count:1;
+  -moz-column-count:1;
+  -ms-column-count:1;
+  -o-column-count:1;
+  column-count:1;
+  padding-top:1.6em;
+}
+
+.col h5 
+{ display: none; }
+
+.col li 
+{ margin:10px 0 12px 0; }
+
+@media only screen and (max-width: 480px) {
+
+nav li 
+{ display: none; }
+
+.burger {
+  display: block;
+  width: 4%;
+}
+
+.chevrons {
+  display: none;
+}
+
+figure h1 {
+  font-size: 15px;
+  width: 100%;
+  margin:0;
+  padding:0;
+  position: static;
+}
+
+.top-story span {
+  font-size: 10px;
+}
+
+.column {
+  margin:5px;
+  padding:0;
+}
+
+.columns {
+  width: 100%;
+}
+
+.columns h2 {
+  font-size: 12px;
+  margin:10px 0 10px 0;
+}
+
+}
+
 
 

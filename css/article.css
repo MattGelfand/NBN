@@ -6,29 +6,6 @@
 	font-smoothing: antialiased;
 }
 
-
-/*.hover {
-	display: none;
-	width: 925px;
-	background: #e3e3e3;
-	position: absolute;
-	top:16px;
-	left:150px;
-	margin-top:35px;
-	padding-top:100px;
-	height: 100px;
-}
-
-.hover li {
-	margin-left: 28px;
-}
-
-.hover a {
-	padding:60px;
-}
-*/
-
-
 body {
 	font-family: "calluna", Helvetica Neue, serif;
 	-webkit-text-size-adjust:100%;
@@ -142,6 +119,10 @@ input {
   right:20px;
   bottom: 13px;
   font-family: 'museo-sans-condensed'; 
+}
+
+.burger {
+	display: none;
 }
 
 /* viewport */
@@ -372,7 +353,7 @@ footer ul {
 
 .col h5 {
 	padding:1px 0px 10px 10px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .col li {
@@ -424,50 +405,91 @@ footer ul {
 /*media queries*/
 
 @media only screen and (max-width: 1124px) {
-img {width: 100%;}
+img { width: 100%; }
+
 }
 
 
 @media only screen and (max-width: 768px) {
-.next-nav ul, .next-bottom, .about, .accordion-link, h5, .chevron-down { display: none; }
-.social-icons { width:100%; }
-.crumb { margin-left:17px; }
+
+#container {
+	margin: 0;
+	width: 100%;
+	padding:0;	
+}
+
+header h1 {
+	text-align: left;
+	padding-left:20px;
+}
+
+#searchform 
+{ display: none; }
+
+nav ul {
+	margin: 0 auto;
+	padding: 15px;
+}
+
+nav li 
+{ font-size: 12px; }
+
+.by, .socialize 
+{ float: none; }
+
+.by 
+{ padding:0 0 0 23px; }
+
+.socialize 
+{ margin-left:-18px; }
+
+.fa-ul {
+	margin:0;
+	padding:10px;
+}
+
+.holder {
+	-webkit-column-count:1;
+	-moz-column-count:1;
+	-ms-column-count:1;
+	-o-column-count:1;
+	column-count:1;
+	padding-top:1.6em;
+}
+
+.col h5 
+{ display: none; }
+
+.col li 
+{ margin:10px 0 12px 0; }
+
 }
 
 @media only screen and (max-width: 480px) {
-#container {
-padding:0;
-margin: 0;	
-}
+
+.content { padding:.8em; }
 
 blockquote { 
-float:none;
-max-width: 350px;
-margin:0;
-border-left:none;
-text-align: center;
+	float:none;
+	max-width: 350px;
+	margin:0;
+	border-left:none;
+	text-align: center;
 }
 
-.social-icons {
-margin:0 auto;
-float:none;
-width: 300px;	
+nav li 
+{ display: none; }
+
+.burger {
+	display: block;
+	width: 4%;
 }
 
-p {
-padding: 0 3.2em;	
-}
+figcaption 
+{ font-size: 12px; }
 
-h1 {
-width: 100%;
-margin:0;
-padding:0;	
-}
-
-header {
-padding-top:0;
-width: 100%;
-}
+.back-top p 
+{ padding: 3.2em 0 3.2em 0; }
 
 
 }
